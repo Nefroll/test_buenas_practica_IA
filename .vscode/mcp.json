@@ -1,0 +1,21 @@
+{
+  "servers": {
+    "playwrightMCP_npx": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@0.0.80"
+      ]
+    },
+    "anymd": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@sylphx/anymd"
+      ]
+    }
+  }
+}
+  
